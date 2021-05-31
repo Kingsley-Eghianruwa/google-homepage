@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="h-screen">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/googleproject.css" rel="stylesheet">
+<title> Google Search Page</title>
+</head>
+<body class="h-screen text-xs bg-white">
+    <div id="main" class="flex flex-col justify-between h-full">
+        <div id="top" class="flex flex-row items-center justify-end p-2">
+            <div id="mail-img ">
+                <ul class="list-none">
+                    <li class="inline pr-4"><a href="">Gmail</a></li>
+                    <li class="inline pr-4"><a href="">Images</a></li>
+                </ul>
+            </div>
+            <div id="icon1"><img class="pr-2" src="./icons/apps_black_36dp.svg"></div>
+            <div id="icon2"><img class="border-4 border-transparent rounded-full hover:border-gray-200" src="./icons/user-icon.png"></div>
+        </div>
+        <div id="middle" class="flex flex-col items-stretch h-3/4">
+            <div id="logo" class="flex flex-row justify-center pt-16 pb-8"><img src="./icons/googlelogo_color_272x92dp.png" alt="google-logo"> </div>
+            <div id="search-box">
+                <form class="flex flex-row justify-center" action="">
+                    <input type="text" style="background-image: url(./icons/search_black_36x24dp.png);" class="flex-grow w-auto h-10 max-w-xl pl-12 text-sm bg-left bg-no-repeat border border-gray-300 rounded-full shadow outline-none ">
+                </form>
+            </div>
+            <div id="buttons" class="flex flex-row justify-center py-4">
+                <div id="button-search">
+                    <button class="inline-block px-4 py-2 m-3 text-sm text-center text-black border border-transparent rounded-lg bg-gray-50 hover:border-gray-300 focus:outline-none">Google Search</button>
+                </div>
+                <div id="button-lucky">
+                    <button class="inline-block px-4 py-2 m-3 text-sm text-center text-black border border-transparent rounded-lg bg-gray-50 hover:border-gray-300 focus:outline-none"> I'm Feeling Lucky</button>
+                </div>
+            </div>
+            <div id="opt-lang" class="flex flex-row justify-center h-full">
+                <div id="offer-in" class="">Google offered in:</div>
+                <div id="lang-options">
+                    <ul class="text-indigo-600 list-none " >
+                        <li class="inline px-2 hover:underline"><a href="">Hausa</a></li>
+                        <li class="inline px-1 hover:underline"><a href="">Igbo</a></li>
+                        <li class="inline px-1 hover:underline"><a href="">Ede Yoruba</a></li>
+                        <li class="inline px-1 hover:underline"><a href="">Nigerian Pigin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="bottom" class="">
+            <div id="bottom1" class="h-12 bg-gray-100 pt-3.5 border-b border-gray-300 pl-4">Nigeria</div>
+            <div id="bottom2" class="flex flex-row items-end justify-between h-12 px-4 py-3 bg-gray-100">
+                <div id="links-left" class="justify-left">
+                    <ul>
+                        <li class="inline pr-2 hover:underline"><a href="">About</a></li>
+                        <li class="inline pr-2 hover:underline"><a href="">Advertising</a></li>
+                        <li class="inline pr-2 hover:underline"><a href="">Business</a></li>
+                        <li class="inline pr-2 hover:underline"><a href="">How Search works</a></li>
+                    </ul>
+                </div>
+                <div id="links-center" class="flex flex-row items-end">
+                    <div id="leaf-green "><img class="pr-1" src="./icons/carbon-leaf.png"></div>
+                    <div id="carbon-neutral">
+                        <ul>
+                            <li class="inline hover:underline"><a href="">Carbon Neutral Since 2007</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="links-right" class="">
+                    <ul>
+                        <li class="inline pr-2 hover:underline"><a href="">Privacy</a></li>
+                        <li class="inline pr-2 hover:underline"><a href="">Terms</a></li>
+                        <li class="inline pr-2 hover:underline"><a href="">Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
